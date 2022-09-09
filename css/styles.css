@@ -1,6 +1,11 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Cascadia Mono";
 }
+
+
 
 @keyframes fadeIn {
     0% { opacity: 0; }
@@ -17,27 +22,27 @@
     animation: fadeIn 6.5s;
 }
 
-.home {
+#home {
     background-color: white;
     opacity: 100%;
 }
 
-.aboutme {
+#aboutme {
     background-color: gray;
     opacity: 100%;
 }
 
-.projects {
+#projects {
     background-color: yellow;
     opacity: 100%;
 }
 
-.github {
+#github {
     background-color: green;
     opacity: 100%;
 }
 
-.cv {
+#cv {
     background-color: red;
     opacity: 100%;
 }

@@ -17,7 +17,27 @@
     animation: fadeIn 6.5s;
 }
 
+.home {
+    background-color: white;
+    opacity: 100%;
+}
+
 .aboutme {
-    background-color: lightblue;
-    opacity: 40%;
+    background-color: gray;
+    opacity: 100%;
+}
+
+.projects {
+    background-color: yellow;
+    opacity: 100%;
+}
+
+.github {
+    background-color: green;
+    opacity: 100%;
+}
+
+.cv {
+    background-color: red;
+    opacity: 100%;
 }

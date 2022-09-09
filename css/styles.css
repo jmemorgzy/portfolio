@@ -1,0 +1,23 @@
+* {
+    font-family: "Cascadia Mono";
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#title {
+    font-size: 64px;
+    animation: fadeIn 5s;
+}
+
+#subtitle {
+    font-size: 32px;
+    animation: fadeIn 6.5s;
+}
+
+.aboutme {
+    background-color: lightblue;
+    opacity: 40%;
+}

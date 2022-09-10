@@ -9,7 +9,36 @@
     padding-left: 10px;
     padding-right: 10px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+  
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .10em;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    transition: all .3s ease;
+}
+  
+a:hover::after {
+    width: 100%;
+    right: 0;
+}
+  
+a::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    right: 0;
+    position: absolute;
+    background: linear-gradient(to right, white, black 100%);
+    transition: width .5s ease 0s, right .5s ease 0s;
+    width: 0;
 }
 
 #myBtn {
@@ -26,11 +55,11 @@
     padding: 15px; 
     border-radius: 20px; 
     font-size: 18px; 
-  }
+}
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #555; 
-  }
+}
 
 @keyframes fadeIn {
     0% { opacity: 0; }

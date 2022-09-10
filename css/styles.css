@@ -85,7 +85,7 @@ section {
     color: whitesmoke;
 }
 
-#subtitle {
+.subtitle {
     font-size: 32px;
     animation: fadeIn 6.5s;
     color: #E9C46A;

@@ -6,7 +6,7 @@
 }
 
 .nav-link {
-    color: #EFF6E0;
+    color: #E9C46A;
 }
 
 .nav-link:hover {
@@ -14,10 +14,10 @@
 }
 
 .navbar-nav > li {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 70px;
+    padding-right: 30px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a {
@@ -43,7 +43,7 @@ a::after {
     height: 4px;
     right: 0;
     position: absolute;
-    background: linear-gradient(to right, #01161E, #EFF6E0 100%);
+    background: linear-gradient(to left, #E9C46A, #1F3944 100%);
     transition: width .7s ease 0s, right .3s ease 0s;
     width: 0;
 }
@@ -79,38 +79,30 @@ section {
     opacity: 100%;
 }
 
-#title {
+.title {
     font-size: 64px;
     animation: fadeIn 5s;
-    color: #EFF6E0;
+    color: whitesmoke;
 }
 
 #subtitle {
     font-size: 32px;
     animation: fadeIn 6.5s;
-    color: #EFF6E0;
+    color: #E9C46A;
 }
 
 #navigation {
-    background-color: #01161E;
+    background-color: #1F3944;
 }
 
 #home {
-    background-color: #01161E;
+    background-color: #264653;
 }
 
 #aboutme {
-    background-color: #124559;
+    background-color: #122229;
 }
 
 #projects {
-    background-color: #598392;
-}
-
-#github {
-    background-color: #AEC3B0;
-}
-
-#cv {
-    background-color: #EFF6E0;
+    background-color: #1F3A45;
 }

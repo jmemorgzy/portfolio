@@ -41,24 +41,24 @@ a::after {
     width: 0;
 }
 
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 30px; /* Place the button at the bottom of the page */
-    right: 40px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; 
-    outline: none; 
+#backToTopButton {
     background-color: red; 
-    color: white; 
+    display: none; 
+    position: fixed; 
+    z-index: 99; 
+    bottom: 30px; 
     cursor: pointer; 
+    right: 40px; 
+    outline: none; 
+    border: none; 
+    color: white; 
     padding: 15px; 
     border-radius: 20px; 
     font-size: 18px; 
 }
   
-#myBtn:hover {
-    background-color: #555; 
+#backToTopButton:hover {
+    background-color: rebeccapurple; 
 }
 
 @keyframes fadeIn {

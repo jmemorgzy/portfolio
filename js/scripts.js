@@ -1,12 +1,12 @@
 // Back to top button
-let mybutton = document.getElementById("myBtn");
+let mybutton = document.getElementById("backToTopButton");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    mybutton.style.display = "block"; // Show button
   } else {
-    mybutton.style.display = "none";
+    mybutton.style.display = "none"; // Hide button
   }
 }
 

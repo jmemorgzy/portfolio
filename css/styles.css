@@ -1,8 +1,16 @@
-* {
+*, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Cascadia Mono";
+    font-family: "Poppins", "Cascadia Mono", "Courier New", Courier, monospace;
+}
+
+.nav-link {
+    color: #EFF6E0;
+}
+
+.nav-link:hover {
+    color: #EFF6E0;
 }
 
 .navbar-nav > li {
@@ -12,7 +20,6 @@
     font-size: 16px;
 }
 
-  
 a {
     text-transform: uppercase;
     text-decoration: none;
@@ -22,12 +29,12 @@ a {
     position: relative;
     transition: all .3s ease;
 }
-  
+
 a:hover::after {
     width: 100%;
     right: 0;
 }
-  
+
 a::after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
@@ -36,13 +43,13 @@ a::after {
     height: 4px;
     right: 0;
     position: absolute;
-    background: linear-gradient(to right, white, black 100%);
-    transition: width .5s ease 0s, right .5s ease 0s;
+    background: linear-gradient(to right, #01161E, #EFF6E0 100%);
+    transition: width .7s ease 0s, right .3s ease 0s;
     width: 0;
 }
 
 #backToTopButton {
-    background-color: red; 
+    background-color: #01161E; 
     display: none; 
     position: fixed; 
     z-index: 99; 
@@ -56,9 +63,11 @@ a::after {
     border-radius: 20px; 
     font-size: 18px; 
 }
-  
+
 #backToTopButton:hover {
-    background-color: rebeccapurple; 
+    background-color: #EFF6E0;
+    color: black;
+    transition: 0.3s ease-in;
 }
 
 @keyframes fadeIn {
@@ -66,37 +75,42 @@ a::after {
     100% { opacity: 1; }
 }
 
+section {
+    opacity: 100%;
+}
+
 #title {
     font-size: 64px;
     animation: fadeIn 5s;
+    color: #EFF6E0;
 }
 
 #subtitle {
     font-size: 32px;
     animation: fadeIn 6.5s;
+    color: #EFF6E0;
+}
+
+#navigation {
+    background-color: #01161E;
 }
 
 #home {
-    background-color: white;
-    opacity: 100%;
+    background-color: #01161E;
 }
 
 #aboutme {
-    background-color: gray;
-    opacity: 100%;
+    background-color: #124559;
 }
 
 #projects {
-    background-color: yellow;
-    opacity: 100%;
+    background-color: #598392;
 }
 
 #github {
-    background-color: green;
-    opacity: 100%;
+    background-color: #AEC3B0;
 }
 
 #cv {
-    background-color: red;
-    opacity: 100%;
+    background-color: #EFF6E0;
 }

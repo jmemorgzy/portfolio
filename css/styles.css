@@ -80,13 +80,13 @@ section {
 }
 
 .title {
-    font-size: 64px;
+    font-size: 56px;
     animation: fadeIn 5s;
     color: whitesmoke;
 }
 
 .subtitle {
-    font-size: 32px;
+    font-size: 28px;
     animation: fadeIn 6.5s;
     color: #E9C46A;
 }

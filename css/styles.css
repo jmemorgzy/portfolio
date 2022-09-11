@@ -6,10 +6,6 @@ body {
   font-family: "Poppins", "Cascadia Mono", "Courier New", Courier, monospace;
 }
 
-.nav-link {
-  color: #e9c46a;
-}
-
 .nav-link:hover {
   color: #eff6e0;
 }
@@ -19,13 +15,15 @@ body {
 }
 
 .navbar-nav>li {
-  padding-left: 70px;
+  padding-left: 50px;
   padding-right: 30px;
   font-weight: bold;
   font-size: 18px;
 }
 
-a {
+.nav-link {
+  color: #e9c46a;
+  size: 100px;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.1em;
@@ -33,14 +31,20 @@ a {
   padding: 15px;
   position: relative;
   transition: all 0.3s ease;
+  border: 0px;
 }
 
-a:hover::after {
+.nav-link:hover {
+  outline: 0px;
+  border: 0px;
+}
+
+.nav-link:hover::after {
   width: 100%;
   right: 0;
 }
 
-a::after {
+.nav-link::after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -104,6 +108,7 @@ img:hover {
   font-size: 56px;
   animation: fadeIn 5s;
   color: whitesmoke;
+  margin-top: 30px;
 }
 
 .subtitle {

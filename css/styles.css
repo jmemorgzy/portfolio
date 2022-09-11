@@ -18,7 +18,7 @@ body {
   margin: 20px;
 }
 
-.navbar-nav > li {
+.navbar-nav>li {
   padding-left: 70px;
   padding-right: 30px;
   font-weight: bold;
@@ -79,6 +79,7 @@ a::after {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -86,6 +87,17 @@ a::after {
 
 section {
   opacity: 100%;
+}
+
+img {
+  width: 150px;
+  height: 350px;
+}
+
+img:hover {
+  transform: scale(0.95);
+  transition: 0.1s ease-in;
+  cursor: pointer;
 }
 
 .title {

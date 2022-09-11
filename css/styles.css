@@ -14,6 +14,10 @@ body {
   color: #eff6e0;
 }
 
+.card {
+  margin: 20px;
+}
+
 .navbar-nav > li {
   padding-left: 70px;
   padding-right: 30px;

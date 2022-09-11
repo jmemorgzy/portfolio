@@ -1,3 +1,4 @@
+// Functions //
 function scrollFunction() {
   if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
     mybutton.style.display = "block"; // Show button
@@ -11,7 +12,8 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-// Back to top button
+// Main //
+// Back to Top Button
 let mybutton = document.getElementById("backToTopButton");
 window.onscroll = function () {
   scrollFunction();

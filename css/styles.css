@@ -1,3 +1,4 @@
+/* General */
 *,
 body {
   margin: 0;
@@ -6,12 +7,9 @@ body {
   font-family: "Poppins", "Cascadia Mono", "Courier New", Courier, monospace;
 }
 
+/* Navigation */
 .nav-link:hover {
   color: #eff6e0;
-}
-
-.card {
-  margin: 20px;
 }
 
 .navbar-nav>li {
@@ -57,6 +55,8 @@ body {
   width: 0;
 }
 
+
+/* Back to top Button */
 #backToTopButton {
   background-color: #01161e;
   display: none;
@@ -79,6 +79,8 @@ body {
   transition: 0.3s ease-in;
 }
 
+
+/* Keyframes */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -89,21 +91,40 @@ body {
   }
 }
 
-section {
-  opacity: 100%;
+/* Card */
+.card {
+  background-color: #122229;
+  margin: 20px;
 }
 
-img {
-  width: 150px;
-  height: 350px;
+.card-img-top {
+  width: 100%;
+  height: 400px;
+  object-position: center;
 }
 
+.card-title {
+  color: whitesmoke;
+}
+
+.card-text {
+  color: #e9c46a;
+}
+
+/* Images */
 img:hover {
   transform: scale(0.95);
   transition: 0.1s ease-in;
   cursor: pointer;
 }
 
+#imageMe {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Main title and Subtitle */
 .title {
   font-size: 56px;
   animation: fadeIn 5s;
@@ -115,6 +136,12 @@ img:hover {
   font-size: 28px;
   animation: fadeIn 6.5s;
   color: #e9c46a;
+}
+
+
+/* Sections */
+section {
+  opacity: 100%;
 }
 
 #navigation {

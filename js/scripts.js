@@ -1,6 +1,8 @@
 // Back to top button
 let mybutton = document.getElementById("backToTopButton");
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+  scrollFunction();
+};
 
 function scrollFunction() {
   if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {

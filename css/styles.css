@@ -1,108 +1,113 @@
-*, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", "Cascadia Mono", "Courier New", Courier, monospace;
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Cascadia Mono", "Courier New", Courier, monospace;
 }
 
 .nav-link {
-    color: #E9C46A;
+  color: #e9c46a;
 }
 
 .nav-link:hover {
-    color: #EFF6E0;
+  color: #eff6e0;
 }
 
 .navbar-nav > li {
-    padding-left: 70px;
-    padding-right: 30px;
-    font-weight: bold;
-    font-size: 18px;
+  padding-left: 70px;
+  padding-right: 30px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 a {
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: .10em;
-    display: inline-block;
-    padding: 15px;
-    position: relative;
-    transition: all .3s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+  transition: all 0.3s ease;
 }
 
 a:hover::after {
-    width: 100%;
-    right: 0;
+  width: 100%;
+  right: 0;
 }
 
 a::after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 4px;
-    right: 0;
-    position: absolute;
-    background: linear-gradient(to left, #E9C46A, #1F3944 100%);
-    transition: width .7s ease 0s, right .3s ease 0s;
-    width: 0;
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 4px;
+  right: 0;
+  position: absolute;
+  background: linear-gradient(to left, #e9c46a, #1f3944 100%);
+  transition: width 0.7s ease 0s, right 0.3s ease 0s;
+  width: 0;
 }
 
 #backToTopButton {
-    background-color: #01161E; 
-    display: none; 
-    position: fixed; 
-    z-index: 99; 
-    bottom: 30px; 
-    cursor: pointer; 
-    right: 40px; 
-    outline: none; 
-    border: none; 
-    color: white; 
-    padding: 15px; 
-    border-radius: 20px; 
-    font-size: 18px; 
+  background-color: #01161e;
+  display: none;
+  position: fixed;
+  z-index: 99;
+  bottom: 30px;
+  cursor: pointer;
+  right: 40px;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 18px;
 }
 
 #backToTopButton:hover {
-    background-color: #EFF6E0;
-    color: black;
-    transition: 0.3s ease-in;
+  background-color: #eff6e0;
+  color: black;
+  transition: 0.3s ease-in;
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 section {
-    opacity: 100%;
+  opacity: 100%;
 }
 
 .title {
-    font-size: 56px;
-    animation: fadeIn 5s;
-    color: whitesmoke;
+  font-size: 56px;
+  animation: fadeIn 5s;
+  color: whitesmoke;
 }
 
 .subtitle {
-    font-size: 28px;
-    animation: fadeIn 6.5s;
-    color: #E9C46A;
+  font-size: 28px;
+  animation: fadeIn 6.5s;
+  color: #e9c46a;
 }
 
 #navigation {
-    background-color: #1F3944;
+  background-color: #1f3944;
 }
 
 #home {
-    background-color: #264653;
+  background-color: #264653;
 }
 
 #aboutme {
-    background-color: #122229;
+  background-color: #122229;
 }
 
 #projects {
-    background-color: #1F3A45;
+  background-color: #1f3a45;
 }

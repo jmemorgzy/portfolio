@@ -4,10 +4,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", "Cascadia Mono", "Courier New", Courier, monospace;
+  font-family: "Cascadia Mono", "Courier New", Courier, monospace;
 }
 
-/* Navigation */
+/* Navigation and links*/
 .nav-link:hover {
   color: #eff6e0;
 }
@@ -32,6 +32,11 @@ body {
   border: 0px;
 }
 
+.nav-link:visited {
+  color: #e9c46a;
+}
+
+
 .nav-link:hover {
   outline: 0px;
   border: 0px;
@@ -53,6 +58,14 @@ body {
   background: linear-gradient(to left, #e9c46a, #1f3944 100%);
   transition: width 0.7s ease 0s, right 0.3s ease 0s;
   width: 0;
+}
+
+.org-link {
+  color: #e9c46a;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
 }
 
 
@@ -99,8 +112,8 @@ body {
 
 .card-img-top {
   width: 100%;
-  height: 400px;
-  object-position: center;
+  height: 300px;
+  object-fit: fill;
 }
 
 .card-title {
@@ -112,6 +125,7 @@ body {
 }
 
 /* Images */
+
 img:hover {
   transform: scale(0.95);
   transition: 0.1s ease-in;
@@ -120,7 +134,7 @@ img:hover {
 
 #imageMe {
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 
 
@@ -133,7 +147,7 @@ img:hover {
 }
 
 .subtitle {
-  font-size: 28px;
+  font-size: 20px;
   animation: fadeIn 6.5s;
   color: #e9c46a;
 }

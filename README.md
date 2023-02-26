@@ -1,4 +1,4 @@
 # Personal Portfolio
 
-for random project purposes.
+A personal portfolio using HTML, CSS and Javascript
 
